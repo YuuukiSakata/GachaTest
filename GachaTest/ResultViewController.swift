@@ -9,8 +9,6 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-    
-    segue
 
     @IBOutlet var haikeiImageView: UIImageView!
     
@@ -18,7 +16,7 @@ class ResultViewController: UIViewController {
     
     var monsterArray: [UIImage]!
     
-    monsterArray: [UIImage(named: monster001.png),
+    monsterArray = [UIImage(named: monster001.png),
     UIImage(named: monster002.png),
     UIImage(named: monster003.png),
     UIImage(named: monster004.png),
@@ -30,19 +28,29 @@ class ResultViewController: UIViewController {
     UIImage(named: monster010.png),
     ]
     
+    monsterImageView.image = monsterArray!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        let number = (rand(% = 9))
+        let number = (rand(% = 0))
     }
+    
+    if number == 9{
+    haikeiImageView.image = UIImage(named: bg_blue@2x.png)
+}else if {
+    haikeiImageView.image = UIImage(named: bg_gold@2x.png)
+}else {
+    haikeiImageView.image = UIImage(named: bg_red@2x.png)
+}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
+}
+
 
     /*
     // MARK: - Navigation
