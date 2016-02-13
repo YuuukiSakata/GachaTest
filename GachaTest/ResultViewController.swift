@@ -35,7 +35,7 @@ class ResultViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        let number = (rand(% = 0))
+        let number = (rand(% = 9))
     }
     
     if number == 9{
