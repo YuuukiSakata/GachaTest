@@ -29,6 +29,7 @@
 		06E796A41C6EC4E000798FAF /* monster008.png in Resources */ = {isa = PBXBuildFile; fileRef = 06E796951C6EC4E000798FAF /* monster008.png */; };
 		06E796A51C6EC4E000798FAF /* monster009.png in Resources */ = {isa = PBXBuildFile; fileRef = 06E796961C6EC4E000798FAF /* monster009.png */; };
 		06E796A61C6EC4E000798FAF /* monster010.png in Resources */ = {isa = PBXBuildFile; fileRef = 06E796971C6EC4E000798FAF /* monster010.png */; };
+		06E796A81C6EC73400798FAF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E796A71C6EC73400798FAF /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		06E796951C6EC4E000798FAF /* monster008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster008.png; sourceTree = "<group>"; };
 		06E796961C6EC4E000798FAF /* monster009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster009.png; sourceTree = "<group>"; };
 		06E796971C6EC4E000798FAF /* monster010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster010.png; sourceTree = "<group>"; };
+		06E796A71C6EC73400798FAF /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				06E796591C6EC40C00798FAF /* AppDelegate.swift */,
-				06E7965B1C6EC40C00798FAF /* ViewController.swift */,
 				06E7965D1C6EC40C00798FAF /* Main.storyboard */,
+				06E7965B1C6EC40C00798FAF /* ViewController.swift */,
+				06E796A71C6EC73400798FAF /* ResultViewController.swift */,
 				06E796871C6EC4E000798FAF /* background のコピー */,
 				06E7968D1C6EC4E000798FAF /* monster のコピー */,
 				06E796601C6EC40C00798FAF /* Assets.xcassets */,
@@ -334,6 +337,7 @@
 			files = (
 				06E7965C1C6EC40C00798FAF /* ViewController.swift in Sources */,
 				06E7965A1C6EC40C00798FAF /* AppDelegate.swift in Sources */,
+				06E796A81C6EC73400798FAF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
