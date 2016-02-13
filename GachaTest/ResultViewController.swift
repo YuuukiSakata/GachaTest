@@ -36,6 +36,7 @@ class ResultViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let number = (rand(% = 9))
+        number
     }
     
     if number == 9{
@@ -50,7 +51,7 @@ class ResultViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
 }
-
+}
 
     /*
     // MARK: - Navigation
@@ -62,4 +63,3 @@ class ResultViewController: UIViewController {
     }
     */
 
-}
