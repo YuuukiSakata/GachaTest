@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    override func performSegueWithIdentifier("result", sender: nil) {
+    self.performSegueWithIdentifier("result", sender: nil) {
         
     }
     

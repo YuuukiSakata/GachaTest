@@ -16,16 +16,16 @@ class ResultViewController: UIViewController {
     
     var monsterArray: [UIImage]!
     
-    monsterArray = [UIImage(named: monster001.png),
-    UIImage(named: monster002.png),
-    UIImage(named: monster003.png),
-    UIImage(named: monster004.png),
-    UIImage(named: monster005.png),
-    UIImage(named: monster006.png),
-    UIImage(named: monster007.png),
-    UIImage(named: monster008.png),
-    UIImage(named: monster009.png),
-    UIImage(named: monster010.png),
+    monsterArray = [UIImage(named: "monster001.png")!,
+    UIImage(named: "monster002.png")!,
+    UIImage(named: "monster003.png")!,
+    UIImage(named: "monster004.png")!,
+    UIImage(named: "monster005.png")!,
+    UIImage(named: "monster006.png")!,
+    UIImage(named: "monster007.png")!,
+    UIImage(named: "monster008.png")!,
+    UIImage(named: "monster009.png")!,
+    UIImage(named: "monster010.png")!,
     ]
     
     monsterImageView.image = monsterArray!
